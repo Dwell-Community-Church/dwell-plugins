@@ -25,3 +25,7 @@ Then say *"give me my daily brief."*
 It's personal to you. Set your **weather location** in the skill, connect whichever **calendar, email,
 task, and Rock** tools you want included, and (optionally) keep a `context/about-me.md` listing key
 people so the email step can flag messages from them.
+
+## Credit
+
+Adapted from Triumph Tech's Cowork starter kit.

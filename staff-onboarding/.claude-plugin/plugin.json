@@ -1,0 +1,9 @@
+{
+  "name": "staff-onboarding",
+  "version": "0.1.0",
+  "description": "Personalize Claude for a church or ministry staff member through a short, friendly interview. Produces a Custom Instructions block in Chat; also scaffolds a workspace in Cowork or Code.",
+  "author": {
+    "name": "Dwell Community Church ICT",
+    "email": "webmaster@dwellcc.org"
+  }
+}

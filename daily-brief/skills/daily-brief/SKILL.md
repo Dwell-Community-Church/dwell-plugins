@@ -182,3 +182,7 @@ The brief is a single self-contained HTML document. **In workspace mode**, save 
 **CSS:** All styles inline in a `<style>` block in `<head>`. No external stylesheets or frameworks. Use CSS custom properties (`:root` variables) for the color palette so the full design stays consistent.
 
 In workspace mode, save the completed report to `daily-brief.html`, then share a concise summary of the most important highlights in the conversation. In browser mode, present the brief inline and give the same summary.
+
+---
+
+*Adapted from Triumph Tech's Cowork starter kit.*

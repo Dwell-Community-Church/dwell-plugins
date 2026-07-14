@@ -14,8 +14,10 @@ They aren't tied to any one church management system (though a couple can option
 
 | Plugin | What it does |
 |--------|--------------|
+| [`staff-onboarding`](./staff-onboarding) | Personalizes Claude for a staff member through a short interview, then produces a Custom Instructions block (and, in Cowork/Code, a workspace). |
 | [`powerpoint-builder`](./powerpoint-builder) | Turns content you provide into a polished, editable `.pptx`, in your brand, a template you have, or a new custom style. You bring the words; it designs the deck. |
 | [`daily-brief`](./daily-brief) | A personalized morning brief pulling your calendar, tasks, email, and (optionally) Rock RMS into one dashboard. |
+| [`brand-example`](./brand-example) | A fill-in-the-blanks template for building your own organization's brand-identity skill. |
 
 ## Install
 
@@ -23,8 +25,10 @@ In Claude Code:
 
 ```
 /plugin marketplace add Dwell-Community-Church/dwell-plugins
+/plugin install staff-onboarding@dwell-plugins
 /plugin install powerpoint-builder@dwell-plugins
 /plugin install daily-brief@dwell-plugins
+/plugin install brand-example@dwell-plugins
 ```
 
 ## Support
@@ -35,7 +39,8 @@ product.
 
 ## Credits
 
-Built by the Dwell Community Church ICT team. Thanks to the Rock community.
+Built by the Dwell Community Church ICT team. `staff-onboarding` and `daily-brief` are adapted from
+Triumph Tech's Cowork starter kit. Thanks to Triumph Tech and the Rock community.
 
 ## License
 

@@ -1,0 +1,9 @@
+{
+  "name": "brand-example",
+  "version": "0.1.0",
+  "description": "Example template for building your organization's brand-identity skill. Copy it, replace the placeholders with your real colors, fonts, and logo rules, and bundle your own logo files.",
+  "author": {
+    "name": "Dwell Community Church ICT",
+    "email": "webmaster@dwellcc.org"
+  }
+}

@@ -7,6 +7,11 @@
   },
   "plugins": [
     {
+      "name": "staff-onboarding",
+      "source": "./staff-onboarding",
+      "description": "Personalize Claude for a church or ministry staff member through a short, friendly interview. Produces a Custom Instructions block in Chat; also scaffolds a workspace in Cowork or Code."
+    },
+    {
       "name": "powerpoint-builder",
       "source": "./powerpoint-builder",
       "description": "Build a polished, editable PowerPoint (.pptx) from content you provide, in your brand, a template you have, or a new custom style. Designs and lays out your content; it does not write it for you."
@@ -15,6 +20,11 @@
       "name": "daily-brief",
       "source": "./daily-brief",
       "description": "A personalized morning brief pulling your calendar, tasks, email, and (optionally) Rock RMS into one dashboard. Writes an HTML report in a workspace, or presents it inline in a browser."
+    },
+    {
+      "name": "brand-example",
+      "source": "./brand-example",
+      "description": "Example template for building your organization's brand-identity skill. Copy it, replace the placeholders with your real colors, fonts, and logo rules, and bundle your own logo files."
     }
   ]
 }
