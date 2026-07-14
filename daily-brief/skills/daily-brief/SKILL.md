@@ -46,7 +46,7 @@ After completing all other steps, write a 3-5 bullet summary of the most importa
 
 ## Verse of the Day
 
-Search the web for an encouraging Bible verse relevant to a ministry leader for today's date. Choose something that speaks to themes like wisdom, perseverance, servant leadership, shepherding, integrity, or vision. Avoid overly familiar verses; look for something fresh and thought-provoking.
+Search the web for an encouraging Bible verse relevant to a ministry leader for today's date. Choose something that speaks to themes like wisdom, perseverance, servant leadership, shepherding, integrity, or vision. Avoid overly familiar verses; look for something fresh and thought-provoking. Quote the verse text accurately and include its reference (book chapter:verse); do not paraphrase or reconstruct it from memory.
 
 ## Step 0: Weather
 
