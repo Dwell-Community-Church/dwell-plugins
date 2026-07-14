@@ -1,0 +1,20 @@
+{
+  "name": "dwell-plugins",
+  "description": "General-purpose Claude plugins for churches and ministries, shared by Dwell Community Church",
+  "owner": {
+    "name": "Dwell Community Church ICT",
+    "email": "webmaster@dwellcc.org"
+  },
+  "plugins": [
+    {
+      "name": "powerpoint-builder",
+      "source": "./powerpoint-builder",
+      "description": "Build a polished, editable PowerPoint (.pptx) from content you provide, in your brand, a template you have, or a new custom style. Designs and lays out your content; it does not write it for you."
+    },
+    {
+      "name": "daily-brief",
+      "source": "./daily-brief",
+      "description": "A personalized morning brief pulling your calendar, tasks, email, and (optionally) Rock RMS into one dashboard. Writes an HTML report in a workspace, or presents it inline in a browser."
+    }
+  ]
+}

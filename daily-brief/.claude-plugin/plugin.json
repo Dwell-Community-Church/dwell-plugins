@@ -1,0 +1,9 @@
+{
+  "name": "daily-brief",
+  "version": "0.1.0",
+  "description": "A personalized morning brief that pulls your calendar, tasks, email, and (optionally) Rock RMS into one dashboard. Writes an HTML report in a workspace, or presents it inline in a browser.",
+  "author": {
+    "name": "Dwell Community Church ICT",
+    "email": "webmaster@dwellcc.org"
+  }
+}
