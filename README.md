@@ -5,7 +5,7 @@ General-purpose Claude skills and plugins for churches and ministries, shared by
 
 These are Claude Code and Claude Cowork plugins we built for our own staff and cleaned up to share.
 They aren't tied to any one church management system (though a couple can optionally pull from
-**Rock RMS** if you use it). Use them, fork them, adapt them to your team.
+**Rock RMS** if you use it). Use them, fork them, adapt them to your team. They're sanitized derivatives of what we run internally at Dwell, versioned independently of our internal builds.
 
 > Looking for our **Rock RMS**-specific plugins (documentation and developer reference)? Those live in
 > [Dwell-Community-Church/rock-plugins](https://github.com/Dwell-Community-Church/rock-plugins).
