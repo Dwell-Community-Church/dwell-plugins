@@ -17,10 +17,11 @@ This skill produces a daily brief covering these areas:
 1. **TL;DR** - top 3-5 things you need to know today (written last, placed first)
 2. **Verse of the Day** - an encouraging Bible verse relevant to a ministry leader
 3. **Today's Calendar** - upcoming meetings for today
-4. **Action Items** - consolidated list of everything requiring your attention
-5. **My Tasks** - tasks due soon or overdue (from your task tool and/or Rock reminders)
-6. **Email Inbox** - important emails that need a response or action
-7. **From Rock** *(optional)* - new connection requests, prayer requests, or reminders worth your attention today
+4. **Week Ahead** - notable meetings, events, and deadlines over the next few days, so nothing sneaks up
+5. **Action Items** - consolidated list of everything requiring your attention
+6. **My Tasks** - tasks due soon or overdue (from your task tool and/or Rock reminders)
+7. **Email Inbox** - important emails that need a response or action
+8. **From Rock** *(optional)* - new connection requests, prayer requests, or reminders worth your attention today
 
 Run all data-gathering steps in parallel where possible to save time. Gather only from the tools you have connected; silently skip any source you are not connected to. After presenting the brief, summarize the key highlights in the conversation, don't just say "done."
 
@@ -71,11 +72,21 @@ Exclude any calendar items with "buffer" in the title; these are personal time b
 
 If there are no meetings today, say so clearly.
 
-## Step 2: Action Items
+## Step 2: Week Ahead
+
+Look beyond today at the **next 5 business days** and surface what's coming, so nothing catches you off guard later in the week:
+
+- Notable meetings, events, and travel (not routine recurring blocks or "buffer" holds)
+- Deadlines or dated commitments, including ones flagged in email, tasks, or Rock that land this week
+- Anything that needs prep before it arrives
+
+Group the highlights by day (e.g. "Thu: board meeting 7pm; Fri: newsletter due"). Keep it to genuine highlights, not a full calendar dump. If the week ahead is light, say so in a line rather than padding it.
+
+## Step 3: Action Items
 
 After gathering data from all sections, compile a consolidated list of everything you need to act on. Include items from email, meeting follow-ups, your task tool, and Rock. Written last but placed here in the report. Keep it tight, only genuine action items, not passive information.
 
-## Step 3: My Tasks - Due & Near-Due
+## Step 4: My Tasks - Due & Near-Due
 
 Pull your assigned tasks from your task tool (and Rock reminders, if connected). Focus on:
 
@@ -93,7 +104,7 @@ For each task include: task name, due date, urgency. If nothing is overdue or ne
 
 List each task by name. The purpose is to ensure nothing falls through the cracks. If there are no tasks missing a due date, skip this section entirely.
 
-## Step 4: Email Inbox - Important Items Needing Attention
+## Step 5: Email Inbox - Important Items Needing Attention
 
 Search your inbox for emails that likely need your attention. Signal over noise, not every email, just the ones that matter.
 
@@ -110,7 +121,9 @@ Search your inbox for emails that likely need your attention. Signal over noise,
 
 Aim for 3-8 genuinely important items. If nothing stands out, say so.
 
-## Step 5: From Rock (Optional)
+**Good to know (optional):** after the action-needed items, you may add a short **"Good to know"** list of 2-4 emails worth awareness but not action (announcements, decisions already made, FYIs). Keep it tight, and skip it entirely if nothing qualifies. Never pad.
+
+## Step 6: From Rock (Optional)
 
 If you have the Rock connector enabled, surface a short, read-only snapshot worth seeing first thing:
 
@@ -172,11 +185,12 @@ The brief is a single self-contained HTML document. **In workspace mode**, save 
 1. ⚡ TL;DR - dark gradient card, bullet list
 2. ✝️ Verse of the Day - blockquote with left accent border
 3. 📅 Today's Calendar - table with time + event name + attendees
-4. ✅ Action Items - checklist cards; urgent items get a red left border
+4. 🗓️ Week Ahead - a compact day-by-day list of the next few days' notable meetings, events, and deadlines (skip routine blocks). Keep it lighter-weight than Today's Calendar; collapse to a single line if the week is quiet.
+5. ✅ Action Items - checklist cards; urgent items get a red left border
 
 **Sidebar (right), compact cards:**
 1. 📋 My Tasks - task rows grouped by Overdue / Due Today / Due Next 3 Days, color-coded dots and badges; at the very bottom an amber-tinted "⚠️ No Due Date" section (omit if none)
-2. 📧 Email - rows with sender name, subject (bold + unread indicator dot), and a one-line "why it matters" note
+2. 📧 Email - rows with sender name, subject (bold + unread indicator dot), and a one-line "why it matters" note; below the action-needed rows, an optional muted "Good to know" list (omit if none)
 3. ⛪ From Rock *(if connected)* - connection requests, prayer requests, and reminders worth seeing today
 
 **CSS:** All styles inline in a `<style>` block in `<head>`. No external stylesheets or frameworks. Use CSS custom properties (`:root` variables) for the color palette so the full design stays consistent.
