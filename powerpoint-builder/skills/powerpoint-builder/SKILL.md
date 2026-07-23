@@ -70,13 +70,17 @@ Guide a quick, low-effort setup, offering tappable starter choices rather than a
 Keep it to a few choices, not a long design interview. Apply the chosen style consistently, and offer to
 save it so they can reuse it next time.
 
-## Design principles (keep slides clean)
+## Design principles (readability first)
 
-- One main idea per slide. Break dense content into more slides rather than crowding one.
-- Short, scannable text: a few short points or a single line beats a paragraph on a slide.
-- Consistent type sizes, spacing, and color across the whole deck.
-- A clear title slide, section dividers for major parts, and a simple, readable content layout.
-- No clip art, stock filler, or decoration that was not asked for.
+Keep slides clean and readable:
+
+- **One main idea per slide.** Break dense content into more slides rather than crowding one. There is no such thing as too little on a slide.
+- **Keep text large, aim for 36pt or bigger.** If everything will not fit, split it across two slides rather than shrinking the font. If certain content really must stay on one slide, tighten the line spacing to 0.9 or 0.85 first (in PowerPoint: highlight the text, right-click, and choose "Paragraph") before you reduce the font size.
+- **Short, scannable text:** a few short points or a single line beats a paragraph on a slide.
+- **Consistent type sizes, spacing, and color** across the whole deck.
+- **A clear title slide, section dividers** for major parts, and a simple, readable content layout.
+- **Readable when projected.** For a deck shown on a projector in a dark room, prefer light text on a dark background; dark text on white can be hard to see and harsh on the eyes there.
+- **Not gimmicky.** No piles of pictures, no crazy fonts, no heavy animations, nothing that looks like a mid-'90s web page. No clip art, stock filler, or decoration that was not asked for.
 
 ## Environment: workspace vs. browser
 
